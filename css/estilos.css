@@ -1,0 +1,24 @@
+nav {
+    background-color: #c6739e;
+}
+
+nav li {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    padding: 7px;
+}
+
+a:hover {
+    background-color: #b1628b;
+}
+
+nav span {
+    font-family: 'Gabriela', serif;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    #navIcono {
+        display: none;
+    }
+}
