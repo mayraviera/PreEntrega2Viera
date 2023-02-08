@@ -4,7 +4,7 @@ nav {
 
 nav li {
     font-family: 'Bebas Neue', cursive;
-    font-size: 23px;
+    font-size: 1.5rem;
     padding: 7px;
 }
 
@@ -20,5 +20,109 @@ nav span {
 @media (min-width: 768px) {
     #navIcono {
         display: none;
+    }
+}
+
+#logo {
+    padding: 30px 50px;
+}
+
+#fondoIndex1 {
+    background-image: url(../imagenes/index/fondoIndex1.jpeg);
+}
+
+#byAlejandra {
+    font-family: 'Gabriela', serif;
+    background-color: #c6739e;
+    border-radius: 8px;
+    color: white;
+    margin: 0px;
+}
+
+.section2 {
+    background-color: antiquewhite;
+}
+
+.carousel-inner {
+    padding: 4%;
+    background-color: rgb(233, 240, 240);
+    margin: 6% 20%;
+    border-style: double;
+    border-width: 8px;
+    border-radius: 10px;
+}
+
+section aside {
+    font-family: 'Amaranth', sans-serif;
+    padding: 3% 0%;
+}
+
+.icon-black, .icon-black:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    background-color: #c6739e;
+    font-family: 'Amaranth', sans-serif;
+    height: 60px
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0px 20px 0px 0px;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color:white
+}
+
+a:visited {
+    text-decoration: none;
+    color:white
+}
+
+a:hover {
+    background-color: #b1628b;
+    transition: 0.5s;
+}
+
+@media (min-width: 1024px) {
+    .card-body {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 12px;
+    }
+
+    #byAlejandra {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    footer {
+        font-size: 12px;
+    }
+
+    #byAlejandra {
+        font-size: 13px;
+    }
+
+    section aside {
+        font-size: 12px;
     }
 }
