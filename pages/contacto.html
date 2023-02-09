@@ -15,7 +15,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
     </head>
-    <body class="body_font color3">
+    <body class="body_font color4">
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" id="navIcono">
@@ -30,19 +30,32 @@
                         <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="dulcesCreaciones.html">Dulces creaciones</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="menuPostres.html">Menú de postres</a></li>
-                        <li class="nav-item"><a class="nav-link text-white active" href="servicios.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white active" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <main>
-            <h3>Postres</h3>
-            <p>Cada postre que ofrezco está presentado en la sección menú. Elegí los postres que más te gusten y contactame para que acordemos método de pago, envío o retiro y otros detalles.</p>
-            <h3 id="h3_largo">Creaciones personalizadas</h3>
-            <p>Realizo tortas, cupcakes y galletas con temática y sabores a elección del cliente. Los precios pueden variar según ingredientes y tiempo de preparación. Elegí una imagen que represente lo que querés en tu torta y enviamela. Calculo un precio y conversamos los detalles del pedido.</p>
-            <h4><a id="a_h4" href="contacto.html">Datos de contacto</a></h4>   
-        </main> 
+        <section>
+            <h1 class="titulos_contacto">Contactame</h1>
+            <figure>
+                <img class="logos_contacto1" src="../imagenes/contacto/email.jpg" alt="email" width="100px" height="80px">
+                <h3 id="email">Email: etereamentedulceuy@gmail.com</h3>
+                <img class="logos_contacto2" src="../imagenes/contacto/whatsapp.jpg" alt="whatsapp"  width="100px" height="100px">
+                <h3 id="whatsapp">Whatsapp: 099371018</h3>
+            </figure>
+        </section>
+        
+        <section>
+            <h1 class="titulos_contacto">Dejame tu mensaje</h1>
+            <form action="mailto:etereamentedulceuy@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="nombre" value="Nombre">
+                <input type="email" name="email" value="Email">
+                <input type="text" name="celular" value="Celular"> </br>
+                <textarea type="text" name="mensaje" placeholder="Tu mensaje" id="mensaje"></textarea></br>
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
         <footer class="w-100">
             <ul>
                 <li><a href="#">Volver arriba</a></li>
