@@ -127,9 +127,9 @@ a:hover {
     }
 }
 
-.body {
+.bodyDulces {
     font-family: 'Amaranth', sans-serif;
-    background-color: antiquewhite;
+    background-image: url(../imagenes/dulcesCreaciones/fondo.webp);
 }
 
 .instagram{
@@ -151,7 +151,7 @@ a:hover {
 
 #card1 {
     margin-top: 20px;
-    background-color: rgb(222, 195, 164);
+    background-color: rgb(226, 205, 182);
     padding: 0px 40px;
 }
 
@@ -169,4 +169,141 @@ a:hover {
     padding: 0px 30px;
     border-color: rgb(222, 195, 164);
     border-width: 2px;
+}
+
+.body_font {
+    font-family: 'Amaranth', sans-serif;
+} 
+
+.color2 {
+    background-color: rgb(179, 225, 234);
+    margin: 0px;
+}
+
+.figure_menu {
+    margin: 0px 0px 0px 45px;
+}
+
+.div_menu {
+    width: 1200px;
+    padding: 100px 0px 100px 0px;
+    margin: 50px 0px 40px 150px;
+    background-image: url(../imagenes/menu/frutales.jpeg) ;
+}
+
+.h3_menu {
+    text-align: center;
+    color: black;
+    width: 250px;
+    height: 35px;
+    margin: 0px 0px 0px 500px;
+    background-color: rgb(179, 225, 234);
+}
+
+#background_1 {
+    background-image: url(../imagenes/menu/golosos.webp);
+}
+
+#background_2 {
+    background-image: url(../imagenes/menu/otros.jpg);
+}
+
+body section figure img {
+    margin: 0px 0px 20px 25px;
+}
+
+.color3 {
+    background-image: url(../imagenes/servicios/fondo.jpg);
+}
+
+body main h3 {
+    background-color: rgb(176, 246, 162);
+    width: 200px;
+    text-align: center;
+    margin: 30px 0px 20px 180px;
+}
+
+body main p {
+    font-size: 17px;
+    border-style: double;
+    border-width: 7px;
+    border-color: black;
+    width: 320px;
+    height: 223px;
+    margin: 0px 0px 0px 120px;
+    background-color: azure;
+}
+
+#h3_largo {
+    width: 350px;
+    margin: 30px 0px 20px 105px;
+}
+
+#a_h4 {
+    color: black;
+    text-decoration: underline;
+    margin: 0px 0px 0px 1200px;
+    font-size: 20px;
+}
+
+
+
+.color4 {
+    background-image: url(../imagenes/servicios/fondo.jpg);
+}
+
+
+.titulos_contacto {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 50px 50px 50px 50px;
+    margin: 60px 150px 0px 150px;
+    font-size: 30px;
+    border-style: double;
+    border-color: black;
+    border-width: 7px;
+}
+
+.logos_contacto1 {
+    margin: 20px 0px 0px 150px;
+}
+
+.logos_contacto2 {
+    margin: 20px 0px 0px 150px;
+}
+
+#email {
+    margin: 10px 0px 0px 150px;
+}
+
+#whatsapp {
+    margin: 10px 0px 0px 150px;
+}
+
+body section form {
+    border-style: double;
+    border-width: 7px;
+    border-color: black;
+    background-color: #eeeeee;
+    width: 550px;
+    height: 300px;
+    margin: 50px 0px 50px 450px;
+}
+
+input {
+    width: 140px;
+    margin: 30px 10px 10px 20px;
+    height: 30px;
+}
+
+
+#mensaje {
+    width: 505px;
+    height: 100px;
+    margin: 30px 10px 10px 20px;
+    font-family: Arial;
+}
+
+#enviar {
+    margin: 30px 10px 10px 390px;
 }
